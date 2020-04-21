@@ -3,8 +3,8 @@
 rm -rf dist
 node tool/bigfish.js
 
-## sync to git http://gitlab.alipay-inc.com/bigfish/course-demo-bigfish
-git clone git@gitlab.alipay-inc.com:bigfish/course-demo-bigfish.git
+## sync to bigfish git
+git clone $BIGFISH_GIT
 cd course-demo-bigfish
 rm -rf ./*
 rm .editorconfig .eslintrc .gitignore
